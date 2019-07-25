@@ -1,0 +1,28 @@
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\bin\Debug\netcoreapp2.2\EventAPI.deps.json
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\bin\Debug\netcoreapp2.2\EventAPI.runtimeconfig.json
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\bin\Debug\netcoreapp2.2\EventAPI.runtimeconfig.dev.json
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\bin\Debug\netcoreapp2.2\EventAPI.dll
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\bin\Debug\netcoreapp2.2\EventAPI.pdb
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.csproj.CoreCompileInputs.cache
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.RazorAssemblyInfo.cache
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.RazorAssemblyInfo.cs
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.AssemblyInfoInputs.cache
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.AssemblyInfo.cs
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.RazorTargetAssemblyInfo.cache
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.dll
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.pdb
+D:\Rajni\DotnetCore\Web API\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.csprojAssemblyReference.cache
+D:\Rajni\EventAPI\EventAPI\bin\Debug\netcoreapp2.2\EventAPI.deps.json
+D:\Rajni\EventAPI\EventAPI\bin\Debug\netcoreapp2.2\EventAPI.runtimeconfig.json
+D:\Rajni\EventAPI\EventAPI\bin\Debug\netcoreapp2.2\EventAPI.runtimeconfig.dev.json
+D:\Rajni\EventAPI\EventAPI\bin\Debug\netcoreapp2.2\EventAPI.dll
+D:\Rajni\EventAPI\EventAPI\bin\Debug\netcoreapp2.2\EventAPI.pdb
+D:\Rajni\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.csprojAssemblyReference.cache
+D:\Rajni\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.csproj.CoreCompileInputs.cache
+D:\Rajni\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.RazorAssemblyInfo.cache
+D:\Rajni\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.RazorAssemblyInfo.cs
+D:\Rajni\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.AssemblyInfoInputs.cache
+D:\Rajni\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.AssemblyInfo.cs
+D:\Rajni\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.RazorTargetAssemblyInfo.cache
+D:\Rajni\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.dll
+D:\Rajni\EventAPI\EventAPI\obj\Debug\netcoreapp2.2\EventAPI.pdb
