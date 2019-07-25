@@ -35,8 +35,8 @@ namespace EventAPI
         {
             services.AddDbContext<EventDbContext>(options =>
             {
-                // options.UseInMemoryDatabase(databaseName: "EventDb");
-                options.UseSqlServer(Configuration.GetConnectionString("EventSqlConnection"));
+                 options.UseInMemoryDatabase(databaseName: "EventDb");
+                //options.UseSqlServer(Configuration.GetConnectionString("EventSqlConnection"));
             });
 
             services.AddSwaggerGen(c =>
@@ -128,8 +128,42 @@ namespace EventAPI
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Event API");
                 });
             }
+            InitializeDatabase(app);
             app.UseAuthentication();
             app.UseMvc();
+        }
+
+        private void InitializeDatabase(IApplicationBuilder app)
+        {
+            using(var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+            {
+                var db = serviceScope.ServiceProvider.GetService<EventDbContext>();
+
+                db.Events.Add(new Models.EventInfo
+                {
+                    Title = "Sample Event1",
+                    StartDate = DateTime.Now,
+                    EndDate = DateTime.Now.AddDays(2),
+                    StartTime = "9:00 AM",
+                    EndTime = "5:00 PM",
+                    Host = "Microsoft",
+                    Speaker = "Rajni",
+                    RegistrationUrl = "https://events.microsoft.com/3223"
+                });
+
+                db.Events.Add(new Models.EventInfo
+                {
+                    Title = "Sample Event2",
+                    StartDate = DateTime.Now,
+                    EndDate = DateTime.Now.AddDays(3),
+                    StartTime = "9:00 AM",
+                    EndTime = "5:00 PM",
+                    Host = "Goggle",
+                    Speaker = "Rahul",
+                    RegistrationUrl = "https://events.microsoft.com/3226"
+                });
+                db.SaveChanges();
+            }
         }
     }
 }
